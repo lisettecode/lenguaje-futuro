@@ -1,3 +1,70 @@
-/*
-	Inserta tu CSS aqui
-*/
+@font-face {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+src: local('Open Sans Light'), local('OpenSans-Light'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+
+body {
+	font-family: 'Open Sans';
+}
+
+header {
+	background: url('../img/grupal.jpg');
+	background-size: 100%;
+	height: 770px;	
+} 
+
+.sumate {
+	width: 90px;
+	height: 40px;
+	background-color: #FFB911;
+	border-radius: 5px;
+	margin: 70px 50px;
+	text-align: center;
+	padding-top: 8px;
+	font-size: 18px;
+}
+
+#logo {
+	width: 520px;
+	height: 70px;
+	margin: 100px 90px;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+	padding: 70px 15px;
+	font-size: 17px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.imagen {
+	max-width: 100%;
+	padding-top: 30px;
+}
+
+h3 {
+ 	padding: 15px 0;
+}
+
+footer {
+	width: 100%;
+	height: 70px;
+	background-color: #3C3939;
+	
+}
+
+.footerfont {
+	margin: 25px 0;
+	color: white;
+	font-size: 15px;
+}
